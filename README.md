@@ -1,4 +1,4 @@
-# SAM vs LangGraph Comparison Experiment
+# SAM vs Naive Agent Comparison Experiment
 
 This repository contains the setup to reproduce the Intelligent Data Management (IDM) experiment comparing Solace Agent Mesh (SAM) with LangGraph approaches.
 
