@@ -1,0 +1,23 @@
+Analyze our product database with 10 comprehensive queries to gain deep insights into our inventory, pricing, and product performance. For each query, provide complete results and actionable insights.
+
+QUERY 1: Show me the top 10 product categories by revenue potential (average price × average stock × availability rate), but exclude any products with ratings below 2.5 or fewer than 100 reviews.
+
+QUERY 2: Calculate the inventory turnover efficiency score for each price quartile, factoring in stock levels, review velocity (reviews per product age), and availability percentage.
+
+QUERY 3: Identify products that are statistical outliers in at least 3 dimensions: price (Z-score > 2), stock levels (top/bottom 5%), and review count (top 10%), then analyze their common characteristics.
+
+QUERY 4: If review velocity is constant, project when each product will reach 10,000 reviews, then rank products by projected time-to-milestone and cross-reference with current stock depletion rates.
+
+QUERY 5: Create a cohort analysis of products grouped by price ranges ($0-100, $100-300, $300-600, $600+), showing average rating trajectories, stock concentration, and revenue distribution with variance analysis.
+
+QUERY 6: Calculate the Pareto distribution (80/20 rule) across multiple dimensions: which products represent 80% of total inventory value, 80% of reviews, and 80% of potential revenue, then find the overlap between these sets.
+
+QUERY 7: Build a product health score (0-100) combining: normalized rating (25%), stock adequacy vs average (20%), review volume percentile (25%), price competitiveness within category (15%), and availability status (15%), then segment into deciles.
+
+QUERY 8: For every product, calculate its similarity score to every other product based on price proximity (±10%), rating similarity (±0.5), and stock level clustering, then identify the 5 most similar products for products in the top revenue quartile.
+
+QUERY 9: Generate a Monte Carlo simulation (1000 iterations) of inventory depletion scenarios assuming random daily sales between 1-10 units per product, factoring in stock levels and availability rates, then calculate the probability distribution of stockout dates for high-value products (top 20% by price).
+
+QUERY 10: Create a multi-dimensional profitability matrix: for each combination of availability status (available/unavailable) × rating tier (5 tiers: <2, 2-2.5, 2.5-3.5, 3.5-4.5, 4.5+) × price quartile (4 tiers) × stock level category (very low/low/medium/high/very high), calculate total products, average metrics, and weighted contribution to total inventory value.
+
+FINAL SUMMARY: Provide key insights, patterns discovered, and actionable recommendations for inventory management and product strategy.
