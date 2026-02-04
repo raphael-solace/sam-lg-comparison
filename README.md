@@ -32,4 +32,3 @@ SAM IDM should deliver:
 ## Resources
 
 - [Solace Agent Mesh](https://github.com/SolaceLabs/solace-agent-mesh)
-- [Full Blog Post](user_prompt.txt) (detailed methodology and insights)
